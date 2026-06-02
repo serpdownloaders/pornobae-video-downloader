@@ -1,0 +1,211 @@
+{
+  "github_source_repo": "https://github.com/serpcompany/pornobae-downloader",
+  "serply_link": "https://serp.ly/pornobae-downloader",
+  "app_name": "Pornobae Video Downloader",
+  "short_description": "Download & Save Pornobae Videos Easily for Offline Viewing (Browser Extension)",
+  "long_description": "PornoBae Downloader is a browser extension built for PornoBae's clean root-level video page structure. It detects the embedded iframe playback layer and follows the cross-domain handoff into All4Tube-hosted infrastructure to resolve the final media stream. The extension targets m3u8 and mp4 formats and delivers saved files as MP4 for easy playback across devices.",
+  "main_video": "",
+  "featured_image": "",
+  "screenshots": [
+    "https://apps.serp.co/media/optimized-products/pornobae-downloader-fullscreen-01-ab52fc6491.webp",
+    "https://apps.serp.co/media/optimized-products/pornobae-downloader-fullscreen-02-3fa3b4608f.webp",
+    "https://apps.serp.co/media/optimized-products/pornobae-downloader-fullscreen-03-c08b4674d5.webp",
+    "https://apps.serp.co/media/optimized-products/pornobae-downloader-fullscreen-04-ca8a7cb527.webp"
+  ],
+  "chromestore_link": "",
+  "firefoxstore_link": "",
+  "other_links": [],
+  "faqs": [
+    {
+      "question": "Does this extension work on every PornoBae video page?",
+      "answer": "It is designed for root-level slug pages where the video is delivered through an iframe handoff into all4tube.com or s3.all4tube.com."
+    },
+    {
+      "question": "What happens if the video uses a different player or handoff path?",
+      "answer": "The extension targets the observed iframe and All4Tube handoff pattern. Pages using different infrastructure may not be supported."
+    },
+    {
+      "question": "Can I download videos in resolutions other than what is offered?",
+      "answer": "The available quality options depend on what the source stream provides through the handoff path."
+    },
+    {
+      "question": "Is my download activity tracked or logged?",
+      "answer": "The extension does not track your downloads. Email sign-in is used only for trial and license management."
+    },
+    {
+      "question": "How do I get help if something is not working?",
+      "answer": "Visit the SERP Help center or open an issue on the GitHub repository."
+    }
+  ],
+  "permissions": [
+    {
+      "name": "",
+      "description": "Only download content you own or have explicit permission to save"
+    }
+  ],
+  "features": [
+    "Targets PornoBae root-level /{slug}/ video pages directly",
+    "Detects the iframe playback layer as the key handoff point",
+    "Follows the cross-domain stream path into all4tube.com and s3.all4tube.com",
+    "Resolves m3u8 and mp4 media responses for download",
+    "Saves output as MP4 for standard media player compatibility",
+    "Provides 3 free trial downloads without requiring a credit card",
+    "Uses email-based one-time password sign-in for secure access",
+    "Targets PornoBae root-level /{slug}/ video pages for accurate detection",
+    "Detects the iframe playback layer as the primary handoff signal",
+    "Follows cross-domain stream resolution into all4tube.com and s3.all4tube.com",
+    "Resolves m3u8 and mp4 media formats from the handoff path",
+    "Delivers output as MP4 for standard media player compatibility",
+    "Popup interface for easy download control",
+    "3 free trial downloads with no credit card required",
+    "Email-based one-time password authentication for secure access"
+  ],
+  "content": {
+    "why": [
+      "PornoBae uses a root-level slug page structure where the actual video playback is handled through an embedded iframe. That iframe typically delegates the media stream to All4Tube infrastructure on domains like all4tube.com or s3.all4tube.com. This means the video file is not sitting directly on the PornoBae page you visit, making standard page-level download tools ineffective.",
+      "PornoBae Downloader is built specifically for this architecture. It recognizes the iframe as the playback transition point and follows the cross-domain handoff to detect the underlying m3u8 or mp4 stream. Instead of guessing or relying on generic download logic, the extension is tuned to PornoBae's unique page layout and the All4Tube-hosted media path that follows."
+    ],
+    "how_it_works": [
+      "Install the extension from the latest release.",
+      "Open PornoBae and go to a supported root-level slug video page.",
+      "Start playback so the extension can detect the iframe handoff.",
+      "Open the popup or use the on-page controls.",
+      "Choose the quality option you want.",
+      "Start the download and wait for the MP4 export to finish.",
+      "Save the final file locally."
+    ],
+    "tutorial": [
+      "Navigate to a PornoBae video page with a root-level slug URL, for example ``.",
+      "Wait for the page to fully load, including the embedded iframe player.",
+      "Start video playback in the iframe so the stream connection becomes active.",
+      "Click the PornoBae Downloader icon in your browser toolbar to open the popup.",
+      "The extension will detect the iframe handoff and begin scanning for the media stream.",
+      "Review the available quality options displayed in the popup.",
+      "Select your preferred resolution and click the download button.",
+      "Save the resulting MP4 file to your local device."
+    ],
+    "supported_formats": [
+      "Input: m3u8 and mp4 streams delivered through the PornoBae to All4Tube handoff path",
+      "Output: MP4",
+      "Saved files use MP4 so they are easier to replay on standard media players, move between devices, or archive locally."
+    ],
+    "target_users": [
+      "Users who regularly visit PornoBae and want to save videos from root-level slug pages",
+      "Viewers who prefer offline playback without relying on streaming availability",
+      "Collectors who want to archive PornoBae content in a standard MP4 format",
+      "Users who need a download tool that understands the PornoBae iframe and All4Tube handoff structure"
+    ],
+    "use_cases": [
+      "Saving a favorite PornoBae video for offline viewing on a commute or trip",
+      "Archiving PornoBae content before it is removed or made unavailable",
+      "Building a personal media library from PornoBae root-level slug pages",
+      "Downloading PornoBae videos for playback on devices without reliable internet access",
+      "Testing the PornoBae download workflow with the free trial before purchasing"
+    ],
+    "troubleshooting": [
+      "The extension does not detect any media on the PornoBae page. Make sure you are on a root-level slug page like `` and that the iframe player has fully loaded.",
+      "The download button is grayed out or unresponsive. Try refreshing the page and starting video playback again before opening the popup.",
+      "I see an error about the iframe handoff. The cross-domain handoff into all4tube.com or s3.all4tube.com may be delayed. Wait for the video to begin playing and try again.",
+      "The downloaded file will not play on my device. Ensure your media player supports MP4 files. Most modern players support MP4 without additional codecs.",
+      "My trial downloads are not counting down. Check that you are signed in with your email and that the extension is activated on a supported PornoBae page."
+    ],
+    "trial_access": [
+      "Includes 3 free downloads so you can test the workflow first",
+      "Email sign-in uses secure one-time password verification",
+      "No credit card required for the trial",
+      "Unlimited downloads are available with a paid license"
+    ],
+    "installation_instructions": [
+      "Open the latest release page.",
+      "Download the correct build for your browser.",
+      "Install the extension.",
+      "Open a supported PornoBae page.",
+      "Use the popup to detect and download the media."
+    ],
+    "notes": [
+      "Only download content you own or have explicit permission to save",
+      "An internet connection is required for downloads",
+      "PornoBae may change its page structure or handoff path, which could affect extension functionality",
+      "The extension is built based on observed iframe and All4Tube handoff patterns and may not cover all PornoBae video pages"
+    ],
+    "about": [
+      "PornoBae is a video hosting platform that organizes content using clean root-level slug page URLs. Its playback architecture relies on an embedded iframe that delegates media delivery to All4Tube infrastructure, making direct downloads from the page itself nontrivial without specialized detection."
+    ]
+  },
+  "serpx_link": "https://serpx.link/pornobae-downloader",
+  "github_topics": [
+    "pornobae-download",
+    "pornobae-downloader",
+    "pornobae-video-downloader",
+    "pornobae-video-downloader-online",
+    "pornobae-video-downloader-mac",
+    "pornobae-video-downloader-window",
+    "pornobae-video-downloader-free",
+    "pornobae-video-downloader-extension",
+    "pornobae-video-downloader-app",
+    "pornobae-video-downloader-chrome",
+    "pornobae-video-downloader-from-url",
+    "how-to-download-pornobae-videos",
+    "how-to-download-pornobae-videos-mac",
+    "how-to-download-pornobae-videos-windows",
+    "how-to-download-pornobae-videos-online",
+    "how-to-download-pornobae-videos-free",
+    "how-to-download-from-pornobae",
+    "how-to-download-videos-from-pornobae",
+    "download-pornobae-videos",
+    "pornobae-video-tutorial",
+    "save-pornobae-videos",
+    "pornobae-video-content-saver",
+    "how-to-download-pornobae-videos-for-free"
+  ],
+  "hashtags": [
+    "#PornobaeDownload",
+    "#PornobaeDownloader",
+    "#PornobaeVideoDownloader",
+    "#PornobaeVideoDownloaderOnline",
+    "#PornobaeVideoDownloaderMac",
+    "#PornobaeVideoDownloaderWindow",
+    "#PornobaeVideoDownloaderFree",
+    "#PornobaeVideoDownloaderExtension",
+    "#PornobaeVideoDownloaderApp",
+    "#PornobaeVideoDownloaderChrome",
+    "#PornobaeVideoDownloaderFromURL",
+    "#HowToDownloadPornobaeVideos",
+    "#HowToDownloadPornobaeVideosMac",
+    "#HowToDownloadPornobaeVideosWindows",
+    "#HowToDownloadPornobaeVideosOnline",
+    "#HowToDownloadPornobaeVideosFree",
+    "#HowToDownloadFromPornobae",
+    "#HowToDownloadVideosFromPornobae",
+    "#DownloadPornobaeVideos",
+    "#PornobaeVideoTutorial",
+    "#SavePornobaeVideos",
+    "#PornobaeVideoContentSaver",
+    "#HowToDownloadPornobaeVideosForFree"
+  ],
+  "youtube_tags": [
+    "Pornobae Download",
+    "Pornobae Downloader",
+    "Pornobae Video Downloader",
+    "Pornobae Video Downloader Online",
+    "Pornobae Video Downloader Mac",
+    "Pornobae Video Downloader Window",
+    "Pornobae Video Downloader Free",
+    "Pornobae Video Downloader Extension",
+    "Pornobae Video Downloader App",
+    "Pornobae Video Downloader Chrome",
+    "Pornobae Video Downloader From URL",
+    "How To Download Pornobae Videos",
+    "How To Download Pornobae Videos Mac",
+    "How To Download Pornobae Videos Windows",
+    "How To Download Pornobae Videos Online",
+    "How To Download Pornobae Videos Free",
+    "How To Download From Pornobae",
+    "How To Download Videos From Pornobae",
+    "Download Pornobae Videos",
+    "Pornobae Video Tutorial",
+    "Save Pornobae Videos",
+    "Pornobae Video Content Saver",
+    "How To Download Pornobae Videos For Free"
+  ]
+}
